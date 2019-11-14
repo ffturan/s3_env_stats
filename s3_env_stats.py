@@ -42,7 +42,7 @@ def get_bucket_list(vvWorker):
 
 def check_args():
     if len(sys.argv) < 3:
-        print(f'Usage: {sys.argv[0]} [profile_name] [region_name]')
+        print(f'Usage: {sys.argv[0]} profile-name region-name')
         exit()
 
 #
