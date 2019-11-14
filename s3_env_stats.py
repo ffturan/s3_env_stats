@@ -5,12 +5,6 @@ import sys
 from botocore.exceptions import ClientError
 from datetime import datetime, timedelta
 
-def get_cnt(lVals):
-        d = dict(zip(lVals, [0] * len(lVals)))
-        for x in lVals:
-            d[x] += 1
-        return d
-
 def connect_aws(vvProfile,vvRegion,vvService):
     try:
         boto3.setup_default_session(profile_name=vvProfile,region_name=vvRegion)
