@@ -1,4 +1,4 @@
-# ec2_clear_sg
+# s3_env_stats
 Lists total number of objects and total bucket size for targat AWS account and region.   
 Requires AWS profile and region as input.
 ## Usage
